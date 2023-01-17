@@ -1,0 +1,26 @@
+package Interfaces;
+
+public class SpacedLogger implements Logger{
+
+	@Override
+	public void Log(String Logg) {
+		// TODO Auto-generated method stub
+		String  [] newArr= Logg.split("  ");
+		for (int i=0;i<Logg.length();i++) {
+			System.out.print(2);
+		}
+		//for(String t:newArr) {
+		//	System.out.print(t);
+		//}
+		
+	
+		
+	}
+
+	@Override
+	public void Error(String err) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package Interfaces;
+
+public class SpacedLogger implements Logger{
+
+	@Override
+	public void Log(String Logg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Error(String err) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

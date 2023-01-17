@@ -1,0 +1,15 @@
+package Interfaces;
+
+public class Interfaces {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AsteriskLogger Aster= new AsteriskLogger();
+		Aster.Log(" this is it ");
+		SpacedLogger Err =new SpacedLogger();
+		Aster.Error("error");
+		SpacedLogger space= new SpacedLogger();
+		space.Log("good");
+	}
+
+}
